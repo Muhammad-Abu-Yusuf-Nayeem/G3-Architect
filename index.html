@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G3 Architect</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              manrope: ["Work Sans", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-manrope text-black">
+    <main>
+      <!-- header section -->
+      <header class="px-20 py-10 bg-[#ff8f0e1f]">
+        <!-- navbar -->
+        <nav class="flex justify-between items-center">
+          <h1 class="text-4xl font-bold">G3 Architects</h1>
+          <ul class="flex items-center justify-center gap-7 font-semibold">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>Login</li>
+          </ul>
+        </nav>
+        <div class="flex flex-col items-center">
+          <h3 class="text-5xl font-extrabold text-center leading-normal pt-10">
+            Brand New Group of <br />
+            Architects
+          </h3>
+          <p class="w-9/12 mx-auto pt-10 text-center">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even
+          </p>
+          <button
+            class="w-fit px-6 py-4 bg-orange-500 text-white font-bold text-xl rounded-xl mt-5 mb-16"
+          >
+            Explore More
+          </button>
+        </div>
+        <div>
+          <img src="images/banner.png" alt="" />
+        </div>
+      </header>
+
+      <!-- Feature section -->
+      <section
+        class="grid lg:grid-cols-2 grid-cols-1 items-center px-20 pt-20 gap-28"
+      >
+        <!-- image content -->
+        <div class="grid grid-cols-2 lg:w-full gap-6">
+          <img src="images/team1.png" alt="" />
+          <img src="images/team2.png" alt="" />
+          <img src="images/team3.png" alt="" />
+          <img src="images/team4.png" alt="" />
+        </div>
+
+        <!-- text content -->
+        <div class="flex flex-col gap-2">
+          <h3 class="font-bold text-5xl leading-tight">
+            <span class="text-gray-500 font-semibold">Quick list</span> of Our
+            <br />
+            <span class="text-orange-500">Features</span>
+          </h3>
+          <p class="pt-10">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even
+          </p>
+          <button
+            class="w-fit px-6 py-4 bg-orange-500 text-white font-bold text-xl rounded-xl mt-5 mb-16"
+          >
+            Explore More
+          </button>
+        </div>
+      </section>
+
+      <!-- Experience section -->
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 px-20 pt-20">
+        <!-- text content -->
+        <div class="mt-8">
+          <h3
+            class="py-2 px-4 leading-tight mb-6 border-l-4 border-orange-400 font-bold text-4xl"
+          >
+            Features you will <br />
+            love & enjoy
+          </h3>
+          <p class="mb-4">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even
+          </p>
+
+          <div class="flex flex-col gap-5">
+            <!-- little card -->
+            <div class="p-7 shadow-xl rounded-lg">
+              <h3 class="font-bold text-xl pt-7">Desktop & Mobile Version</h3>
+              <p class="text-gray-500 pt-4">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised...........
+              </p>
+            </div>
+
+            <!-- little card -->
+            <div class="p-7 shadow-xl rounded-lg">
+              <h3 class="font-bold text-xl pt-7">Desktop & Mobile Version</h3>
+              <p class="text-gray-500 pt-4">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised...........
+              </p>
+            </div>
+
+            <!-- little card -->
+            <div class="p-7 shadow-xl rounded-lg">
+              <h3 class="font-bold text-xl pt-7">Desktop & Mobile Version</h3>
+              <p class="text-gray-500 pt-4">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised...........
+              </p>
+            </div>
+
+            <!-- little card -->
+            <div class="p-7 shadow-xl rounded-lg">
+              <h3 class="font-bold text-xl pt-7">Desktop & Mobile Version</h3>
+              <p class="text-gray-500 pt-4">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised...........
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- image content -->
+        <div class="relative">
+          <img src="images/architect.png" alt="" srcset="" />
+          <div
+            class="flex flex-col justify-center w-fit p-12 bg-orange-400 rounded-lg absolute bottom-52"
+          >
+            <h3 class="font-bold text-5xl">10+Year</h3>
+            <small class="text-center">Experience</small>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
